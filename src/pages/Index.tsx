@@ -7,7 +7,7 @@ import { Label } from '@/components/ui/label';
 import { toast } from '@/components/ui/use-toast';
 import { Toaster } from '@/components/ui/toaster';
 
-const HERO = 'https://cdn.poehali.dev/projects/69d74d4b-d110-4bdd-8e59-a0756922e712/files/c88d0987-6e63-4d37-81cb-2bb9631100a8.jpg';
+const HERO = 'https://cdn.poehali.dev/projects/69d74d4b-d110-4bdd-8e59-a0756922e712/files/40a3359d-6838-4511-93d8-fbb80e162735.jpg';
 const CRAFT = 'https://cdn.poehali.dev/projects/69d74d4b-d110-4bdd-8e59-a0756922e712/files/1fd9269f-d938-48d9-b83d-f99968db43a1.jpg';
 const PATTERN = 'https://cdn.poehali.dev/projects/69d74d4b-d110-4bdd-8e59-a0756922e712/files/e599d0b9-bc04-4f34-b3e7-79bb5c1a205c.jpg';
 
