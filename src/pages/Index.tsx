@@ -47,7 +47,7 @@ const Index = () => {
         <div className="container flex items-center justify-between h-16">
           <button onClick={() => scrollTo('hero')} className="flex items-center gap-2">
             <Icon name="Flame" className="text-primary" size={24} />
-            <span className="font-display text-2xl font-700 tracking-wide text-ink">Звоны Земли</span>
+            <span className="font-display font-700 tracking-wide text-ink text-lg">Голос души </span>
           </button>
           <nav className="hidden lg:flex items-center gap-6">
             {NAV.map((n) => (
@@ -94,9 +94,7 @@ const Index = () => {
           <p className="animate-fade-up text-gold tracking-[0.3em] uppercase text-sm mb-6">
             Всероссийский фестиваль этноискусств
           </p>
-          <h1 className="animate-fade-up font-display text-6xl md:text-8xl font-700 leading-none mb-6" style={{ animationDelay: '0.1s' }}>
-            Звоны Земли
-          </h1>
+          <h1 className="animate-fade-up font-display md:text-8xl font-700 leading-none mb-6 text-6xl" style={{ animationDelay: '0.1s' }}>Голос души и сердце традиций</h1>
           <p className="animate-fade-up max-w-2xl mx-auto text-lg md:text-xl text-background/80 mb-10 text-balance" style={{ animationDelay: '0.2s' }}>
             Конкурсный отбор талантливых вокалистов и мастеров народного промысла со всей России.
             Сохраняем традиции — открываем новые имена.
